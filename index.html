@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone, Paper and Sciccors</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<div class="navbar"> <h1>Rock paper scissors Game</h1></div>
+<body>
+   <div class="computer" >
+        <p id="text">Computer</p>
+        <div class="image">
+            <img src="./paper.png" height="100vh">
+            <img src="./rock.png" height="105vh">
+            <img src="./sciccors.png" height="100vh">
+        </div>
+    </div>
+    <div class="score-board">
+        <div class="score">
+            <p id="user-score">0</p>
+            <p> you</p>
+        </div>
+        <div class="score">
+            <p id="comp-score">0</p>
+            <p >computer</p>
+        </div>
+    </div>
+    <p class="msg">play your game </p>
+    <div class="choices">
+        <div class="choice" id="paper"><button><img src="./paper.png" height="100vh"></button></div>
+        <div class="choice" id="rock"><button><img src="./rock.png" height="100vh"></button></div>
+        <div class="choice" id="scissor"><button><img src="./sciccors.png" height="100vh"></button></div>
+        
+    </div> 
+    <div id="text">You</div> 
+</body>
+<script src="./script.js"></script>
+</html>
